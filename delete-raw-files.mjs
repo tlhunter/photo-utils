@@ -20,6 +20,9 @@
  * Or, the DSC001.ARW.xmp file will have some sort of rating metadata.
  *
  * This script deletes *.ARW and *.ARW.xmp files deemed as not worth keeping.
+ * This script depends on related files having the same filename prefix.
+ *
+ * Usage: delete-raw-files --rating=2 --delete --dir=~/Photos --ext=DNG
  */
 
 // Minimal rating to keep a photo. 1 means keep everything, 5 means keep perfect, etc
