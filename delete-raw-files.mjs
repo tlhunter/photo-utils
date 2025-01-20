@@ -1,4 +1,6 @@
-#!/usr/bin/env zx
+#!/usr/bin/env node
+
+import 'zx/globals';
 
 /**
  * `npm install -g zx`
